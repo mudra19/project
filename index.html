@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+  <script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+</head>
+
+<style>
+@media(max-width:500px)
+{
+  h1
+  {font-size:30px;}
+}
+header{
+
+  background-image:url("http://www.aboutpathankot.com/wp-content/uploads/2013/12/archies.jpg");
+  background-size:cover;
+  height: 400px;
+  text-align: center;
+
+
+}
+.price{
+  float:right;
+}
+
+header h1{
+  font-family: 'Ultra', serif;
+  font-weight: lighter;
+
+
+
+}
+header h2{
+  font-family: cursive;
+  margin:220px 0px 10px 0px;
+
+}
+
+a{
+  color:white;
+  font-size:15px;
+}
+
+
+ul{padding:20px;
+background-color:rgba(0,0,0,0.8);
+}
+li{display:inline;
+padding:0px 60px 0px 60px;}
+h1
+{font-size:60px;
+  margin-top:0;
+}
+div{
+  height:200px;
+position: relative;
+border-radius:20px;
+margin:40px;
+
+}
+p{
+  font-family: sans-serif;
+  line-height: 25px;
+  position:absolute;
+  bottom:0;
+  text-align: justify;
+  background-color:rgba(136,14,14,0.8);
+  background:-webkit-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.4));
+  color: white;
+  margin:0;
+height:30px;
+transition: height .5s;
+}
+.first {
+  background:url("http://www.archiesonline.com/upload/home_banner_62c7c4bb-2d1c-464a-a732-85f2f997dafb.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second{
+  background:url("http://www.archiesonline.com/upload/home_banner_d802a543-e086-4747-ae3d-d3afcfad9af9.jpg");
+
+  background-size: cover;
+}
+.third{
+  background:url("http://www.archiesonline.com/upload/ManagePageImages/f926b16f-873c-47c9-b3ba-ccba4a6f06ac.jpg");
+}
+
+.show-description p{
+  height:140px;
+}
+
+small{
+  opacity:0;
+}
+.show-description small{
+  opacity:1;
+}
+
+</style>
+
+<header>
+  <h1>archies</h1>
+  <h2>The most special way to say you care</h2>
+  <ul>
+    <li><a href="#">hot sellers</a></li>
+    <li><a href="#">same day delievery</a></li>
+    <li><a href="#">catalogue</a></li>
+    <li><a href="#">birthday gifts</a></li>
+    <li><a href="#">anniversary gifts</a></li>
+    <li><a href="#">ocassions</a></li>
+  </ul>
+</header>
+<body>
+  <h2 style="text-align:center">welcome to archies online!</h2>
+
+
+
+  <div class="first">
+    <h2>A Holistic Boutique of Timeless Expressions<span class="price">Rs250/- onwards</span></h2>
+    <p><small>Archies presents an exhaustive collection of exclusive gifts and greeting cards to help you express your deepest feelings for your loved ones. In today’s increasingly hurried times, we get so engrossed in making a living that we almost forget to appreciate the real blessings in our lives - our people. Whether we talk about our moms who brave countless sleepless nights after we are born or that best friend who is always by our side through thick and thin, it would be safe to say that our existence wouldn’t be the same if it weren’t for our loved ones. Now is the time to let them know how you feel, without saying a word, through a range of exciting online gift ideas put together by our team of experts. Every gift listed with us not only qualifies the stringent quality benchmarks that have been synonymous with the Archies brand, but also encapsulates all the emotions you may need to convey your feelings, just the way you want.</small></p></div>
+
+  <div class="second">
+      <h2>Celebrating Human Feelings and Emotions<span class="price">Rs400/- onwards</span></h2>
+    <p><small>Archies Online is a one-stop-shop to buy the perfect gifts for the ones you hold close to your heart. Whether you are looking for a birthday gift for an old friend or a Valentine’s Day token for the love of your life, we have got you covered. Our team of experts understand the variance of human emotions and spend countless hours in putting together thoughtful gifts that help you express your feelings to your loved ones. We truly believe that every human relationship is unique, with every person in our life holding an indispensable place that calls for a unique appreciation, and we, at Archies, are here to make that happen. Committed to serving as the go-to destination to buy and send gifts online, we carry a comprehensive range of gifts and greetings covering every aspect of human emotion worth cherishing.</small></p></div>
+    <div class="third">
+      <h2>What Do We Have In Store?<span class="price">Rs200/- onwards</span></h2>
+      <p><small>Archies Limited offers you an endearing and endless variety of gift items including greeting cards, perfumes, chocolates, stationery essentials, mugs, soft toys and much more, for both him and her. Over the years, we have brought to India some of the world’s most famous gifting brands, such as Garfield, Smiley World, Cow Parade and Hallmark. Explore Archies’ extensive collection of online greetings and gifts and send your love to your loved ones anywhere in the world.</small></p></div>
+      <h2>sign up for regular updates and offers</h2>
+
+      <input type="email" placeholder="your email id">
+      <input type="submit">
+      <script>
+      alert("javascript works");
+      $("div").on("click",function(){
+        $(this).toggleClass('show-description');
+        });
+        </script>
+
+
+</body>
